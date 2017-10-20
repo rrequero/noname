@@ -50,12 +50,11 @@ function put(filter) {
     return createEndpoint.bind(null, 'put', filter);
 }
 exports.put = put;
-function path(filter) {
+function patch(filter) {
     return createEndpoint.bind(null, 'path', filter);
 }
-exports.path = path;
+exports.patch = patch;
 function del(filter) {
     return createEndpoint.bind(null, 'delete', filter);
 }
 exports.del = del;
-//# sourceMappingURL=noname.anotations.js.map

@@ -1,6 +1,7 @@
 import "reflect-metadata";
 import * as Koa from 'koa';
 import { Container } from "inversify";
+import '@types/koa';
 export default class Noname extends Koa {
     container: Container;
     constructor();

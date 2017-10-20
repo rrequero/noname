@@ -54,12 +54,10 @@ export function put(filter: any) {
     return createEndpoint.bind(null, 'put', filter);
 }
 
-export function path(filter: any) {
+export function patch(filter: any) {
     return createEndpoint.bind(null, 'path', filter);
 }
 
 export function del(filter: any) {
     return createEndpoint.bind(null, 'delete', filter);
 }
-
-
