@@ -5,7 +5,6 @@ import * as KoaRouter from 'koa-router';
 import { Container, injectable } from "inversify";
 import { dirname } from 'path';
 import { readdirSync, statSync } from 'fs';
-import '@types/koa';
 
 const APP_DIR = dirname(require.main.filename);
 

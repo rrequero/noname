@@ -7,7 +7,6 @@ const KoaRouter = require("koa-router");
 const inversify_1 = require("inversify");
 const path_1 = require("path");
 const fs_1 = require("fs");
-require("@types/koa");
 const APP_DIR = path_1.dirname(require.main.filename);
 class Noname extends Koa {
     constructor() {
