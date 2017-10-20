@@ -1,4 +1,4 @@
-import { NONAME_ROUTER_CONFIG, NONAME_SYMBOL, NONAME_ENDPOINTS, NONAME_TYPE, NONAME_TYPE_SERVICE, NONAME_TYPE_ROUTER } from 'noname.constants';
+import { NONAME_ROUTER_CONFIG, NONAME_SYMBOL, NONAME_ENDPOINTS, NONAME_TYPE, NONAME_TYPE_SERVICE, NONAME_TYPE_ROUTER } from './noname.constants';
 import "reflect-metadata";
 import * as Koa from 'koa';
 import * as KoaRouter from 'koa-router';

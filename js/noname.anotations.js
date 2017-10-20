@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const noname_constants_1 = require("noname.constants");
+const noname_constants_1 = require("./noname.constants");
 const inversify_1 = require("inversify");
 function service(type) {
     return function (target) {

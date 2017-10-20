@@ -1,4 +1,4 @@
-import { NONAME_ROUTER_CONFIG, NONAME_SYMBOL, NONAME_TYPE, NONAME_TYPE_ROUTER, NONAME_TYPE_SERVICE, NONAME_ENDPOINTS } from 'noname.constants';
+import { NONAME_ROUTER_CONFIG, NONAME_SYMBOL, NONAME_TYPE, NONAME_TYPE_ROUTER, NONAME_TYPE_SERVICE, NONAME_ENDPOINTS } from './noname.constants';
 import { injectable } from "inversify";
 import * as KoaRouter from 'koa-router';
 

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const noname_constants_1 = require("noname.constants");
+const noname_constants_1 = require("./noname.constants");
 require("reflect-metadata");
 const Koa = require("koa");
 const KoaRouter = require("koa-router");
