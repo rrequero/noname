@@ -1,0 +1,39 @@
+{
+  "name": "noname",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "typings": "js/index",
+  "scripts": {
+    "dev": "tsc --watch & NODE_PATH=js/src nodemon dist",
+    "test": "tsc && mocha dist/**/*.spec.js",
+    "lint": "eslint src --ext ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "rrequero <rrequero@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/mocha": "2.2.41",
+    "eslint": "4.0.0",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-import": "2.3.0",
+    "eslint-plugin-promise": "3.5.0",
+    "mocha": "3.4.2",
+    "nodemon": "1.11.0",
+    "supertest": "3.0.0",
+    "tsc": "1.20150623.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.3.3",
+    "typescript-eslint-parser": "3.0.0",
+    "tslint-config-airbnb": "^5.3.0",
+    "@types/node": "7.0.22"
+  },
+  "dependencies": {
+    "inversify": "^4.3.0",
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "reflect-metadata": "^0.1.10"
+  }
+}
