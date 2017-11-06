@@ -9,7 +9,7 @@ import { readdirSync, statSync } from 'fs';
 
 const APP_DIR = dirname(require.main.filename);
 
-
+///<reference path='node_modules/@types/koa/index.d.ts'/>
 export default class Noname extends Koa {
 
     container: Container;
