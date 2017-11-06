@@ -92,4 +92,3 @@ class Noname extends Koa {
     }
 }
 exports.default = Noname;
-//# sourceMappingURL=noname.js.map

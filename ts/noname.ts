@@ -6,7 +6,6 @@ import { Container, injectable } from "inversify";
 import { dirname } from 'path';
 import { readdirSync, statSync } from 'fs';
 
-
 const APP_DIR = dirname(require.main.filename);
 
 ///<reference path='node_modules/@types/koa/index.d.ts'/>
